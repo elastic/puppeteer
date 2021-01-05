@@ -1,9 +1,12 @@
 {
-  "name": "puppeteer",
-  "version": "5.4.1",
+  "name": "@elastic/puppeteer",
+  "version": "5.4.1-patch.1",
   "description": "A high-level API to control headless Chrome over the DevTools Protocol",
   "main": "./cjs-entry.js",
-  "repository": "github:puppeteer/puppeteer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puppeteer/puppeteer.git"
+  },
   "engines": {
     "node": ">=10.18.1"
   },
